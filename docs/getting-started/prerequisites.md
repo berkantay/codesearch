@@ -1,6 +1,8 @@
-# Prerequisites
+# 🛠️ Prerequisites
 
-Before setting up Claude Context, ensure you have the following requirements met.
+Before setting up CodeSearch, ensure you have the following requirements met.
+
+> **Maintained by [berkantay](https://github.com/berkantay)** • [🐛 Issues](https://github.com/berkantay/codesearch/issues)
 
 ## Required Services
 
@@ -48,7 +50,7 @@ Before setting up Claude Context, ensure you have the following requirements met
 ### For VSCode Extension
 
 - **VSCode**: Version 1.74.0 or higher
-- **Extensions**: Claude Context extension from marketplace
+- **Extensions**: CodeSearch extension from marketplace
 
 ### For Development Contributions
 

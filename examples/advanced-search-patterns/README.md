@@ -1,6 +1,8 @@
-# Advanced Search Patterns Example
+# 🎯 Advanced Search Patterns Example
 
 This example demonstrates advanced search patterns and techniques for getting the most out of CodeSearch's semantic capabilities.
+
+> **Part of [CodeSearch](https://github.com/berkantay/codesearch)** by [berkantay](https://github.com/berkantay)
 
 ## Overview
 

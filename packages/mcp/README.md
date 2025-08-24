@@ -1,12 +1,13 @@
 # @codesearch/mcp
 
-![](../../assets/codesearch.png)
 Model Context Protocol (MCP) integration for CodeSearch - A powerful MCP server that enables AI assistants and agents to index and search codebases using semantic search.
 
 [![npm version](https://img.shields.io/npm/v/@codesearch/mcp.svg)](https://www.npmjs.com/package/@codesearch/mcp)
 [![npm downloads](https://img.shields.io/npm/dm/@codesearch/mcp.svg)](https://www.npmjs.com/package/@codesearch/mcp)
 
 > 📖 **New to CodeSearch?** Check out the [main project README](../../README.md) for an overview and setup instructions.
+>
+> **Maintained by [berkantay](https://github.com/berkantay)** • [🐛 Issues](https://github.com/berkantay/codesearch/issues)
 
 ## 🚀 Use CodeSearch as MCP in Claude Code and others
 

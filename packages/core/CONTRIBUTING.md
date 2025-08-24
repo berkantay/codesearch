@@ -2,6 +2,8 @@
 
 Thanks for your interest in contributing to the CodeSearch core package!
 
+> **Maintained by [berkantay](https://github.com/berkantay)** • [🐛 Issues](https://github.com/berkantay/codesearch/issues)
+
 > 📖 **First time contributing?** Please read the [main contributing guide](../../CONTRIBUTING.md) first for general setup and workflow.
 
 ## Core Package Development

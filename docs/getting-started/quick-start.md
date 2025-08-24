@@ -1,6 +1,8 @@
-# Quick Start Guide
+# 🚀 Quick Start Guide
 
 Get CodeSearch running with AI assistants in under 5 minutes! This guide covers the most common setup using MCP (Model Context Protocol) with Claude Code.
+
+> **Maintained by [berkantay](https://github.com/berkantay)** • [Report Issues](https://github.com/berkantay/codesearch/issues)
 
 ## 🚀 1-Minute Setup for Claude Code
 
@@ -40,6 +42,17 @@ Replace the API keys with your actual keys.
    ```
 
 🎉 **That's it!** You now have semantic code search in Claude Code.
+
+---
+
+## 📚 More Resources
+
+- **[📖 Full Documentation](../README.md)** - Complete setup guides
+- **[🎯 Examples](../../examples)** - Real-world usage examples
+- **[🐛 Issues](https://github.com/berkantay/codesearch/issues)** - Report bugs or request features
+- **[💬 Discussions](https://github.com/berkantay/codesearch/discussions)** - Community support
+
+---
 
 ## Alternative Quick Setups
 
@@ -409,3 +422,15 @@ npx @codesearch/mcp@latest
 </details>
 
 > 💡 **Tip**: For easier configuration management, you can use [global environment variables](environment-variables.md) instead of specifying them in each MCP client configuration.
+
+---
+
+<div align="center">
+
+**Need Help?**
+
+[🐛 **Report Issues**](https://github.com/berkantay/codesearch/issues) • [💬 **Discussions**](https://github.com/berkantay/codesearch/discussions) • [📧 **Email**](mailto:berkantay@gmail.com)
+
+**Built with ❤️ by [berkantay](https://github.com/berkantay)**
+
+</div>

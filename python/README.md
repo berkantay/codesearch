@@ -1,15 +1,17 @@
-# Python → TypeScript Claude Context Bridge
+# 🐍 Python → TypeScript CodeSearch Bridge
 
-A simple utility to call TypeScript Claude Context methods from Python.
+A simple utility to call TypeScript CodeSearch methods from Python.
+
+> **Part of [CodeSearch](https://github.com/berkantay/codesearch)** by [berkantay](https://github.com/berkantay)
 
 ## What's This?
 
-This directory contains a basic bridge that allows you to run Claude Context TypeScript functions from Python scripts. It's not a full SDK - just a simple way to test and use the TypeScript codebase from Python.
+This directory contains a basic bridge that allows you to run CodeSearch TypeScript functions from Python scripts. It's not a full SDK - just a simple way to test and use the TypeScript codebase from Python.
 
 ## Files
 
 - `ts_executor.py` - Executes TypeScript methods from Python
-- `test_context.ts` - TypeScript test script with Claude Context workflow
+- `test_context.ts` - TypeScript test script with CodeSearch workflow
 - `test_endtoend.py` - Python script that calls the TypeScript test
 
 ## Prerequisites

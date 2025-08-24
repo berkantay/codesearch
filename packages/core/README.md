@@ -1,13 +1,13 @@
 # @codesearch/core
 
-![](../../assets/codesearch.png)
-
 The core indexing engine for CodeSearch - a powerful tool for semantic search and analysis of codebases using vector embeddings and AI.
 
 [![npm version](https://img.shields.io/npm/v/@codesearch/core.svg)](https://www.npmjs.com/package/@codesearch/core)
 [![npm downloads](https://img.shields.io/npm/dm/@codesearch/core.svg)](https://www.npmjs.com/package/@codesearch/core)
 
 > 📖 **New to CodeSearch?** Check out the [main project README](../../README.md) for an overview and quick start guide.
+>
+> **Maintained by [berkantay](https://github.com/berkantay)** • [🐛 Issues](https://github.com/berkantay/codesearch/issues)
 
 ## Installation
 

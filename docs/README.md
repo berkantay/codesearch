@@ -1,8 +1,8 @@
-# CodeSearch Documentation
-
-![](../assets/codesearch.png)
+# 📖 CodeSearch Documentation
 
 Welcome to the CodeSearch documentation! CodeSearch is a powerful tool that adds semantic code search capabilities to AI coding assistants through MCP.
+
+> **Maintained by [berkantay](https://github.com/berkantay)** • [🐛 Report Issues](https://github.com/berkantay/codesearch/issues) • [📧 Contact](mailto:berkantay@gmail.com)
 
 ## 🚀 Quick Navigation
 

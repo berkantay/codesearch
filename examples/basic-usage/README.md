@@ -1,6 +1,8 @@
-# Basic Usage Example
+# 🚀 Basic Usage Example
 
-This example demonstrates the basic usage of CodeSearch.
+This example demonstrates the basic usage of CodeSearch - perfect for getting started with semantic code search.
+
+> **Part of [CodeSearch](https://github.com/berkantay/codesearch)** by [berkantay](https://github.com/berkantay)
 
 ## Prerequisites
 

@@ -1,6 +1,8 @@
-# AI Assistant Integration Example
+# 🤖 AI Assistant Integration Example
 
 This example demonstrates how to integrate CodeSearch with AI assistants like Claude, GPT, or other language models to provide intelligent code search capabilities.
+
+> **Part of [CodeSearch](https://github.com/berkantay/codesearch)** by [berkantay](https://github.com/berkantay)
 
 ## Overview
 

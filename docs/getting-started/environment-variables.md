@@ -1,4 +1,6 @@
-# Environment Variables Configuration
+# ⚙️ Environment Variables Configuration
+
+> **Maintained by [berkantay](https://github.com/berkantay)** • [🐛 Issues](https://github.com/berkantay/codesearch/issues)
 
 ## 🎯 Global Configuration
 
@@ -29,10 +31,10 @@ CodeSearch supports a global configuration file at `~/.context/.env` to simplify
 
 ### Vector Database
 
-| Variable         | Description                                                 | Default                     |
-| ---------------- | ----------------------------------------------------------- | --------------------------- |
-| `QDRANT_URL`     | Qdrant server URL                                         | `http://localhost:6333`     |
-| `QDRANT_API_KEY` | Qdrant API key (optional for local, required for cloud)   | Optional                    |
+| Variable         | Description                                             | Default                 |
+| ---------------- | ------------------------------------------------------- | ----------------------- |
+| `QDRANT_URL`     | Qdrant server URL                                       | `http://localhost:6333` |
+| `QDRANT_API_KEY` | Qdrant API key (optional for local, required for cloud) | Optional                |
 
 ### Ollama (Local)
 

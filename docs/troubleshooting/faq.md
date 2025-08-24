@@ -1,4 +1,6 @@
-# Frequently Asked Questions (FAQ)
+# ❓ Frequently Asked Questions (FAQ)
+
+> **Maintained by [berkantay](https://github.com/berkantay)** • [🐛 Issues](https://github.com/berkantay/codesearch/issues) • [📧 Contact](mailto:berkantay@gmail.com)
 
 ## Q: What files does CodeSearch decide to embed?
 
