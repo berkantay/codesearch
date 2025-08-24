@@ -1,0 +1,88 @@
+{
+  "name": "@codesearch/core",
+  "version": "0.1.1",
+  "description": "Core indexing engine for CodeSearch",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "pnpm clean && tsc --build --force",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist coverage",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "test:unit": "jest --testPathPattern=unit",
+    "test:integration": "jest --testPathPattern=integration",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --coverage --watchAll=false"
+  },
+  "dependencies": {
+    "@google/genai": "^1.9.0",
+    "@qdrant/js-client-rest": "^1.15.0",
+    "faiss-node": "^0.5.1",
+    "fs-extra": "^11.0.0",
+    "glob": "^10.0.0",
+    "langchain": "^0.3.27",
+    "ollama": "^0.5.16",
+    "openai": "^5.1.1",
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-c-sharp": "^0.21.0",
+    "tree-sitter-cpp": "^0.22.0",
+    "tree-sitter-go": "^0.21.0",
+    "tree-sitter-java": "^0.21.0",
+    "tree-sitter-javascript": "^0.21.0",
+    "tree-sitter-python": "^0.21.0",
+    "tree-sitter-rust": "^0.21.0",
+    "tree-sitter-scala": "^0.24.0",
+    "tree-sitter-typescript": "^0.21.0",
+    "typescript": "^5.0.0",
+    "voyageai": "^0.0.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.0",
+    "@types/jest": "^30.0.0",
+    "@types/mock-fs": "^4.13.4",
+    "@types/node": "^20.0.0",
+    "jest": "^30.0.0",
+    "mock-fs": "^5.5.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesearch-ai/codesearch.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/codesearch-ai/codesearch/tree/main/packages/core#readme",
+  "bugs": {
+    "url": "https://github.com/codesearch-ai/codesearch/issues"
+  },
+  "keywords": [
+    "code-search",
+    "semantic-search",
+    "ai",
+    "embeddings",
+    "vector-database",
+    "ast",
+    "typescript",
+    "javascript",
+    "python",
+    "java",
+    "openai",
+    "qdrant",
+    "developer-tools",
+    "code-analysis",
+    "indexing",
+    "tree-sitter"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

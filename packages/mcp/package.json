@@ -1,0 +1,67 @@
+{
+  "name": "@codesearch/mcp",
+  "version": "0.1.1",
+  "description": "Model Context Protocol integration for CodeSearch",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "pnpm clean && tsc --build --force",
+    "dev": "tsx --watch src/index.ts",
+    "clean": "rm -rf dist coverage",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "test:unit": "jest --testPathPattern=unit",
+    "test:integration": "jest --testPathPattern=integration",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --coverage --watchAll=false",
+    "start": "tsx src/index.ts",
+    "start:with-env": "OPENAI_API_KEY=${OPENAI_API_KEY:your-api-key-here} QDRANT_URL=${QDRANT_URL:http://localhost:6333} tsx src/index.ts",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@codesearch/core": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.55"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesearch-ai/codesearch.git",
+    "directory": "packages/mcp"
+  },
+  "homepage": "https://github.com/codesearch-ai/codesearch/tree/main/packages/mcp#readme",
+  "bugs": {
+    "url": "https://github.com/codesearch-ai/codesearch/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "code-search",
+    "semantic-search",
+    "ai",
+    "claude",
+    "openai",
+    "embeddings",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

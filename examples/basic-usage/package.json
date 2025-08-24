@@ -1,0 +1,21 @@
+{
+  "name": "codesearch-basic-example",
+  "version": "0.1.1",
+  "description": "Basic usage example for CodeSearch",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts",
+    "build": "tsc index.ts --outDir dist --target es2020 --module commonjs --moduleResolution node --esModuleInterop true",
+    "dev": "tsx --watch index.ts"
+  },
+  "dependencies": {
+    "@codesearch/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,77 @@
+{
+  "name": "codesearch",
+  "version": "0.1.1",
+  "description": "AI-powered semantic code search and analysis tool with multi-language support and intelligent indexing",
+  "private": false,
+  "scripts": {
+    "build": "pnpm -r --filter='!./examples/*' build && pnpm -r --filter='./examples/*' build",
+    "build:core": "pnpm --filter @codesearch/core build",
+    "build:vscode": "pnpm --filter codesearch-vscode compile",
+    "build:mcp": "pnpm --filter @codesearch/mcp build",
+    "dev": "pnpm -r dev",
+    "dev:core": "pnpm --filter @codesearch/core dev",
+    "dev:vscode": "pnpm --filter codesearch-vscode watch",
+    "dev:mcp": "pnpm --filter @codesearch/mcp dev",
+    "clean": "pnpm -r clean",
+    "lint": "pnpm -r lint",
+    "lint:fix": "pnpm -r run lint:fix",
+    "typecheck": "pnpm -r run typecheck",
+    "test": "pnpm -r test",
+    "test:unit": "pnpm -r run test:unit",
+    "test:integration": "pnpm -r run test:integration",
+    "test:coverage": "pnpm -r run test:coverage",
+    "test:watch": "pnpm -r run test:watch",
+    "release:core": "pnpm --filter @codesearch/core... run build && pnpm --filter @codesearch/core publish --access public --no-git-checks",
+    "release:mcp": "pnpm --filter @codesearch/mcp... run build && pnpm --filter @codesearch/mcp publish --access public --no-git-checks",
+    "release:vscode": "pnpm --filter @codesearch/core build && pnpm --filter codesearch-vscode run webpack && pnpm --filter codesearch-vscode release",
+    "example:basic": "pnpm --filter codesearch-basic-example start"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "eslint": "^9.25.1",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "stream-http": "^3.2.0",
+    "tree-sitter-cli": "^0.25.6",
+    "typescript": "^5.8.3",
+    "url": "^0.11.4",
+    "vm-browserify": "^1.1.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesearch-ai/codesearch.git"
+  },
+  "homepage": "https://github.com/codesearch-ai/codesearch#readme",
+  "bugs": {
+    "url": "https://github.com/codesearch-ai/codesearch/issues"
+  },
+  "license": "MIT",
+  "author": "CodeSearch Team",
+  "keywords": [
+    "code-search",
+    "semantic-search",
+    "ai",
+    "embeddings",
+    "vector-database",
+    "ast",
+    "typescript",
+    "javascript",
+    "python",
+    "java",
+    "mcp",
+    "claude",
+    "openai",
+    "qdrant",
+    "developer-tools",
+    "code-analysis",
+    "indexing"
+  ]
+}
