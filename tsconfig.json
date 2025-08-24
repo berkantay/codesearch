@@ -32,9 +32,6 @@
             "path": "./packages/core"
         },
         {
-            "path": "./packages/vscode-extension"
-        },
-        {
             "path": "./packages/mcp"
         }
     ],

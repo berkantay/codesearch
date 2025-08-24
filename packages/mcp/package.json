@@ -42,12 +42,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesearch-ai/codesearch.git",
+    "url": "https://github.com/berkantay/codesearch.git",
     "directory": "packages/mcp"
   },
-  "homepage": "https://github.com/codesearch-ai/codesearch/tree/main/packages/mcp#readme",
+  "homepage": "https://github.com/berkantay/codesearch/tree/main/packages/mcp#readme",
   "bugs": {
-    "url": "https://github.com/codesearch-ai/codesearch/issues"
+    "url": "https://github.com/berkantay/codesearch/issues"
   },
   "keywords": [
     "mcp",

@@ -47,14 +47,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesearch-ai/codesearch.git"
+    "url": "https://github.com/berkantay/codesearch.git"
   },
-  "homepage": "https://github.com/codesearch-ai/codesearch#readme",
+  "homepage": "https://github.com/berkantay/codesearch#readme",
   "bugs": {
-    "url": "https://github.com/codesearch-ai/codesearch/issues"
+    "url": "https://github.com/berkantay/codesearch/issues"
   },
   "license": "MIT",
-  "author": "CodeSearch Team",
+  "author": "berkantay",
   "keywords": [
     "code-search",
     "semantic-search",
